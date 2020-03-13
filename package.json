@@ -1,0 +1,42 @@
+{
+  "name": "wort-lu-dataviz",
+  "version": "0.0.0",
+  "main": "./lib/js/wort-lu-dataviz.js",
+  "scripts": {
+    "start": "webpack --mode development --watch"
+  },
+  "dependencies": {
+    "d3": "5.15.0",
+    "lodash": "4.17.14",
+    "numeral": "2.0.6",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "recharts": "1.8.5",
+    "topojson-client": "3.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.8.6",
+    "@babel/plugin-proposal-class-properties": "7.8.3",
+    "@babel/plugin-proposal-export-default-from": "7.2.0",
+    "@babel/plugin-proposal-export-namespace-from": "7.2.0",
+    "@babel/preset-env": "7.8.6",
+    "@babel/preset-react": "7.8.3",
+    "babel-eslint": "10.0.1",
+    "babel-loader": "8.0.6",
+    "css-loader": "3.4.2",
+    "eslint": "5.7.0",
+    "eslint-friendly-formatter": "4.0.1",
+    "eslint-loader": "3.0.3",
+    "eslint-plugin-jsx-a11y": "6.1.2",
+    "eslint-plugin-import": "2.17.2",
+    "eslint-plugin-react": "7.x",
+    "mini-css-extract-plugin": "0.9.0",
+    "node-sass": "4.13.1",
+    "sass-loader": "8.0.2",
+    "webpack": "4.42.0",
+    "webpack-cli": "3.3.11"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
